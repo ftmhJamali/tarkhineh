@@ -1,0 +1,17 @@
+.swiper-pagination {
+  justify-content: center !important;
+  width: 120 px !important;
+  /* background-color: white; */
+}
+.swiper-pagination-bullet {
+  color: white !important;
+  padding: 30 px !important;
+  background-color: #417f56 !important;
+}
+.swiper-button-next {
+  color: white !important;
+  background-color: none !important;
+}
+.swiper-button-prev {
+  color: white !important;
+}

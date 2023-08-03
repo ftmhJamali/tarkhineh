@@ -1,5 +1,11 @@
+@font-face {
+  font-family: "Estedad";
+  src: local("Estedad-Medium"),
+    url("./fonts/Estedad-Medium.ttf") format("truetype");
+}
 .App {
-  text-align: center;
+  direction: rtl;
+  font-family: "Estedad";
 }
 
 .App-logo {

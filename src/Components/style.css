@@ -1,0 +1,41 @@
+.font-Estedad {
+  font-family: "Estedad";
+}
+.dir {
+  direction: rtl;
+}
+.parent:hover .child {
+  display: flex !important;
+}
+.background-image {
+  background-image: url("../assets/about/Footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.background-image-responsive {
+  background-image: url("../assets/about/Footer-responsive.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.bg-transparent {
+  background-color: transparent;
+}
+.sp-menu {
+  width: 80%;
+}
+.scroll-custom::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+}
+.custom-bg:nth-child(even) {
+  background-color: #c1e6cc;
+}
+.custom-bg:nth-child(odd) {
+  background-color: #464646;
+}
+input[type="radio"] {
+  accent-color: #417f56;
+}
