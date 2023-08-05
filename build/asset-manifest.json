@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/tarkhineh/static/css/main.2eeb667a.css",
+    "main.js": "/tarkhineh/static/js/main.23c65f93.js",
+    "static/media/branch.png": "/tarkhineh/static/media/branch.d3288dcd583fc58173e2.png",
+    "static/media/about2.png": "/tarkhineh/static/media/about2.cb6789b9792a7c7b3de5.png",
+    "static/media/Footer.png": "/tarkhineh/static/media/Footer.1e7df450937b52fc9bc4.png",
+    "static/media/about.png": "/tarkhineh/static/media/about.f75938f06afce874d793.png",
+    "static/media/Estedad-Medium.ttf": "/tarkhineh/static/media/Estedad-Medium.86f62bf2a770ccb7e20b.ttf",
+    "static/media/Property 1=Slider 2.png": "/tarkhineh/static/media/Property 1=Slider 2.5e3680902db03de0fdf4.png",
+    "static/media/Property 1=Slider 4.png": "/tarkhineh/static/media/Property 1=Slider 4.a11af781395c0fa981cb.png",
+    "static/media/Property 1=Slider 1.png": "/tarkhineh/static/media/Property 1=Slider 1.1f4776b9f5c043a6190b.png",
+    "static/media/Property 1=Slider 3.png": "/tarkhineh/static/media/Property 1=Slider 3.e9983df3dad7235dacb8.png",
+    "static/media/Footer-responsive.png": "/tarkhineh/static/media/Footer-responsive.bed70aca7ab3bcb35aa7.png",
+    "static/media/bg-icon.png": "/tarkhineh/static/media/bg-icon.c41c662e6628dd09536f.png",
+    "static/media/GroupSearch.png": "/tarkhineh/static/media/GroupSearch.db0b26948ec15114f604.png",
+    "index.html": "/tarkhineh/index.html",
+    "main.2eeb667a.css.map": "/tarkhineh/static/css/main.2eeb667a.css.map",
+    "main.23c65f93.js.map": "/tarkhineh/static/js/main.23c65f93.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2eeb667a.css",
+    "static/js/main.23c65f93.js"
+  ]
+}
