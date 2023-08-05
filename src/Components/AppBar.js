@@ -42,7 +42,7 @@ const AppBar = () => {
   const handleOpenSearchModal = () => setOpenSearchModal(true);
   const handleCloseSearchModal = () => setOpenSearchModal(false);
   return (
-    <section className="bg-white  shadow-md h-14 md:h-20 items-center">
+    <section className="bg-white  shadow-md h-14  md:h-20 items-center">
       <div className="flex justify-between mt-7  mx-3 md:mx-32 items-center  mb-1">
         <TemporaryDrawer />
         <img className="w-[140px] h-[35px] lg:h-[45px]" alt="logo" src={logo} />

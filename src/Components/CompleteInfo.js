@@ -3,7 +3,7 @@ import position from "../assets/icon/Position3.png";
 import truck from "../assets/icon/truck.png";
 import truckFast from "../assets/icon/truck-fast.png";
 import shoppingBag from "../assets/icon/shopping-bag.png";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import location from "../assets/icon/location-0.png";
 import closeCircle from "../assets/icon/close-circle.png";
 import greentrash from "../assets/icon/trash-green.png";
@@ -18,7 +18,7 @@ import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 import Footer from "./Footer";
 import { useDispatch, useSelector } from "react-redux";
-import { addToCart, decFood } from "../features/food/foodSlice";
+import { addToCart, decFood, getTotals } from "../features/food/foodSlice";
 import { Link } from "react-router-dom";
 const style = {
   position: "absolute",
@@ -66,10 +66,14 @@ const CompleteInfo = () => {
     const filteredAdd = addressData.filter((add) => add.id !== address.id);
     setAddressData(filteredAdd);
   };
+  const dispatch = useDispatch();
   const { cart } = useSelector((state) => state.food);
   const { total } = useSelector((state) => state.food);
   const { totalDiscounts } = useSelector((state) => state.food);
-  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(getTotals());
+  }, [cart]);
+
   return (
     <>
       <Layout />
