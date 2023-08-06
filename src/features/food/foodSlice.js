@@ -156,7 +156,7 @@ const initialState = {
       id: "main",
       num: 0,
       name: "غذای اصلی",
-      image: "../../assets/menu/image-4.png",
+      image: "../assets/menu/image-4.png",
     },
     {
       id: "appetizer",

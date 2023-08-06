@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tarkhineh/static/css/main.2eeb667a.css",
-    "main.js": "/tarkhineh/static/js/main.23c65f93.js",
+    "main.css": "/tarkhineh/static/css/main.b6bb65a9.css",
+    "main.js": "/tarkhineh/static/js/main.ccce5193.js",
     "static/media/branch.png": "/tarkhineh/static/media/branch.d3288dcd583fc58173e2.png",
     "static/media/about2.png": "/tarkhineh/static/media/about2.cb6789b9792a7c7b3de5.png",
     "static/media/Footer.png": "/tarkhineh/static/media/Footer.1e7df450937b52fc9bc4.png",
@@ -15,11 +15,11 @@
     "static/media/bg-icon.png": "/tarkhineh/static/media/bg-icon.c41c662e6628dd09536f.png",
     "static/media/GroupSearch.png": "/tarkhineh/static/media/GroupSearch.db0b26948ec15114f604.png",
     "index.html": "/tarkhineh/index.html",
-    "main.2eeb667a.css.map": "/tarkhineh/static/css/main.2eeb667a.css.map",
-    "main.23c65f93.js.map": "/tarkhineh/static/js/main.23c65f93.js.map"
+    "main.b6bb65a9.css.map": "/tarkhineh/static/css/main.b6bb65a9.css.map",
+    "main.ccce5193.js.map": "/tarkhineh/static/js/main.ccce5193.js.map"
   },
   "entrypoints": [
-    "static/css/main.2eeb667a.css",
-    "static/js/main.23c65f93.js"
+    "static/css/main.b6bb65a9.css",
+    "static/js/main.ccce5193.js"
   ]
 }
