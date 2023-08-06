@@ -40,7 +40,7 @@ const ModalBranch = () => {
           <div className="flex flex-col">
             {branches.map((b) => {
               return (
-                <div className="dir p-3 hover:bg-Green-Primary hover:text-white">
+                <div key={b.id} className="dir p-3 hover:bg-Green-Primary hover:text-white">
                   <Link to={`/branch/${b.id}`} state={{b}}>{b.name}</Link>
                 </div>
               );

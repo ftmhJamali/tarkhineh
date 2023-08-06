@@ -15,6 +15,7 @@ import arrowLeft from "../assets/icon/arrow-left.png";
 import Footer from "./Footer";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+
 const MainPage = () => {
   useEffect(() => {
     Aos.init();
@@ -33,6 +34,7 @@ const MainPage = () => {
           {menuItem.map((item) => {
             return (
               <Link
+                key={item.id}
                 to={`/menu/${item.id}`}
                 state={{ item }}
                 data-aos="fade-up"
@@ -46,48 +48,6 @@ const MainPage = () => {
               </Link>
             );
           })}
-          {/* <button
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              className="w-44 md:w-60 relative h-28 bg-Green-Primary rounded-md"
-            >
-              <img className="absolute bottom-4" alt="" src={menu4} />
-              <p className="py-2 px-4  border border-pale-gray absolute bg-white rounded-sm text-sm top-24 right-10 md:right-20 shadow-lg">
-                غذای اصلی
-              </p>
-            </button>
-            <button
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              className="w-44 md:w-60 relative h-28 bg-Green-Primary rounded-md"
-            >
-              <img className="absolute bottom-4" alt="" src={menu3} />
-              <p className="py-2 px-4  border border-pale-gray absolute bg-white rounded-sm text-sm top-24 right-10 md:right-20 shadow-lg">
-                پیش غذا
-              </p>
-            </button>
-          </div>
-          <div className="flex gap-x-5 md:gap-x-12 justify-between">
-            <button
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              className="md:w-60  w-44 relative h-28 bg-Green-Primary rounded-md"
-            >
-              <img className="absolute bottom-4" alt="" src={menu2} />
-              <p className="py-2 px-7 border border-pale-gray absolute bg-white rounded-sm text-sm top-24 right-12 md:right-20 shadow-lg">
-                دسر
-              </p>
-            </button>
-            <button
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              className="md:w-60 w-44 relative h-28 bg-Green-Primary rounded-md"
-            >
-              <img className="absolute bottom-4" alt="" src={menu1} />
-              <p className="py-2 px-4 border border-pale-gray absolute bg-white rounded-sm text-sm top-24 right-10 md:right-20 shadow-lg">
-                نوشیدنی
-              </p>
-            </button> */}
         </div>
       </div>
       {/* parallax */}
@@ -201,6 +161,7 @@ const MainPage = () => {
         {branches.map((b) => {
           return (
             <Link
+              key={b.id}
               to={`/branch/${b.id}`}
               state={{ b }}
               data-aos="fade-up"
@@ -229,95 +190,6 @@ const MainPage = () => {
             </Link>
           );
         })}
-        {/* <button
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          className="hover:translate-y-1 parent border items-center border-gray w-[378px] h-[110px] md:w-[228px] md:h-[394px] hover:border-natural hover:shadow-md rounded-md gap-x-3 flex flex-row md:flex-col gap-y-3 shadow-sm"
-        >
-          <img
-            className="h-full w-[240px] md:h-[229px]  md:w-full"
-            alt=""
-            src={ekbatan}
-          />
-          <div className="flex items-center gap-y-3 justify-center flex-col">
-            <h3 className="text-natural font-bold md:text-2xl ">
-              شعبه اکباتان
-            </h3>
-            <p className="text-sm me-2 md:px-2 md:leading-6  text-natural">
-              شهرک اکباتان، فاز۳،مجتمع تجاری کوروش ، طبقه سوم
-            </p>
-            <button className="hidden md:flex  border border-natural rounded-md p-1 items-center">
-              <p>صفحه شعبه</p>
-              <img className="h-4" alt="" src={arrowLeft} />
-            </button>
-          </div>
-        </button>
-
-        <button
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          className="border items-center border-gray w-[378px] h-[110px] md:w-[228px] md:h-[394px] hover:border-natural hover:shadow-md rounded-md gap-x-3 flex flex-row md:flex-col gap-y-3 shadow-sm"
-        >
-          <img
-            className="h-full w-[317px] md:h-[229px] md:w-full"
-            alt=""
-            src={chaloos}
-          />
-          <div className="flex items-center gap-y-3 justify-center flex-col">
-            <h3 className="text-natural font-bold md:text-2xl ">شعبه چالوس</h3>
-            <p className="text-sm me-2 md:px-2 md:leading-6  text-natural">
-              چالوس، خیابان ۱۷ شهریور، بعد کوچه کوروش، جنب داروخانه میلانی
-            </p>
-            <button className="hidden md:flex  border border-natural rounded-md p-1 items-center">
-              <p>صفحه شعبه</p>
-              <img className="h-4" alt="" src={arrowLeft} />
-            </button>
-          </div>
-        </button>
-
-        <button
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          className="border items-center border-gray w-[378px] h-[110px] md:w-[228px] md:h-[394px] hover:border-natural hover:shadow-md rounded-md gap-x-3 flex flex-row md:flex-col gap-y-3 shadow-sm"
-        >
-          <img
-            className="h-full w-[210px] md:h-[229px] md:w-full"
-            alt=""
-            src={aghdasie}
-          />
-          <div className="flex items-center gap-y-3 justify-center flex-col">
-            <h3 className="text-natural font-bold md:text-2xl ">شعبه اقدسیه</h3>
-            <p className="text-sm me-2 md:px-2 md:leading-6  text-natural">
-              خیابان اقدسیه ، نرسیده به میدان خیام، پلاک ۸
-            </p>
-            <button className="hidden md:flex  border border-natural rounded-md p-1 items-center">
-              <p>صفحه شعبه</p>
-              <img className="h-4" alt="" src={arrowLeft} />
-            </button>
-          </div>
-        </button>
-
-        <button
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          className="border items-center border-gray w-[378px] h-[110px] md:w-[228px] md:h-[394px] hover:border-natural hover:shadow-md rounded-md gap-x-3 flex flex-row md:flex-col gap-y-3 shadow-sm"
-        >
-          <img
-            className="h-full w-[243px] md:h-[229px] md:w-full"
-            alt=""
-            src={vanak}
-          />
-          <div className="flex items-center gap-y-3 justify-center flex-col">
-            <h3 className="text-natural font-bold md:text-2xl ">شعبه ونک</h3>
-            <p className="text-sm me-2 md:px-2 md:leading-6  text-natural">
-              میدان ونک، خیابان فردوسی، نبش کوچه نیلوفر، پلاک ۲۶
-            </p>
-            <button className="hidden md:flex  border border-natural rounded-md p-1 items-center">
-              <p>صفحه شعبه</p>
-              <img className="h-4" alt="" src={arrowLeft} />
-            </button>
-          </div>
-        </button> */}
       </div>
       <Footer />
     </>

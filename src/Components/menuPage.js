@@ -14,6 +14,7 @@ import Footer from "./Footer";
 import { addToCart, getAsyncFoods } from "../features/food/foodSlice";
 import { useEffect, useState } from "react";
 import { Tab } from "@headlessui/react";
+
 const MenuPage = () => {
   const label = { inputProps: { "aria-label": "Checkbox demo" } };
   const dispatch = useDispatch();

@@ -50,7 +50,7 @@ export default function TemporaryDrawer() {
         >
           {branches.map((b) => {
             return (
-              <Link to={`/branch/${b.id}`} state={{ b }}>
+              <Link key={b.id} to={`/branch/${b.id}`} state={{ b }}>
                 <ListItem className="flex w-full gap-x-4 hover:bg-pale-gray">
                   <GoChevronRight />
                   <p>{b.name}</p>
@@ -71,7 +71,7 @@ export default function TemporaryDrawer() {
         >
           {menuItem.map((item) => {
             return (
-              <Link to={`/menu/${item.id}`} state={{ item }}>
+              <Link key={item.id} to={`/menu/${item.id}`} state={{ item }}>
                 <ListItem className="flex w-full gap-x-4 hover:bg-pale-gray">
                   <GoChevronRight />
                   <p>{item.name}</p>
@@ -95,27 +95,7 @@ export default function TemporaryDrawer() {
         </Link>
         <Divider />
       </List>
-      {/* <List>
-        {[
-          { name: "صفحه اصلی", to: "/" },
-          { name: "شعبه" },
-          { name: "منو", to: "/menu" },
-          { name: "اعطای نمایندگی", to: "/" },
-          { name: "درباره ما", to: "/" },
-          { name: "تماس با ما", to: "/" },
-        ].map((text, index) => (
-          <>
-            <Link to={text.to}>
-              <ListItem key={text} disablePadding>
-                <ListItemButton>
-                  <ListItemText primary={text.name} />
-                </ListItemButton>
-              </ListItem>
-            </Link>
-            <Divider />
-          </>
-        ))}
-      </List> */}
+
     </Box>
   );
 

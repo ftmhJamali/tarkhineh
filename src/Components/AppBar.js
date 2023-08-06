@@ -75,7 +75,10 @@ const AppBar = () => {
                 <div className="flex flex-col">
                   {menuItem.map((item) => {
                     return (
-                      <div className="dir p-3 hover:bg-Green-Primary hover:text-white">
+                      <div
+                        key={item.id}
+                        className="dir p-3 hover:bg-Green-Primary hover:text-white"
+                      >
                         <Link to={`/menu/${item.id}`} state={{ item }}>
                           {item.name}
                         </Link>
