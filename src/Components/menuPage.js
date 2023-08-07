@@ -41,7 +41,7 @@ const MenuPage = () => {
         <Tab.List>
           <div className="w-full mt-0 bg-pale-gray dir flex ps-4 py-2 gap-x-6 md:gap-x-10 md:px-28">
             {menuItem.map((item) => (
-              <Tab>
+              <Tab key={item.id}>
                 {({ selected }) => (
                   /* Use the `selected` state to conditionally style the selected tab. */
                   <button
@@ -123,11 +123,12 @@ const MenuPage = () => {
       </div>
 
       {/* foods */}
+      {error ? <>{error.message}</> : <></>}
       {loading ? (
         <>
           <div className="hidden md:grid md:grid-cols-2 mx-4 gap-x-3 md:mx-28 my-16 gap-y-5">
             {items.map((item) => (
-              <div className="flex gap-x-3 ">
+              <div className="flex gap-x-3 " key={item}>
                 <Skeleton
                   variant="rectangular"
                   // className="w-20 h-20 md:w-[140px] md:h-[140px]"

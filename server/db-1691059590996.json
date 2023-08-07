@@ -9,7 +9,7 @@
       "discount": 8,
       "favarite": 5,
       "madeWith": "کلم برگ،لپه پخته،پیاز",
-      "image": "../../assets/image/dolmebargekalam.png"
+      "image": ""
     },
     {
       "id": 2,
@@ -20,7 +20,7 @@
       "discount": 35,
       "favarite": 5,
       "madeWith": " برنج ،سبزی،پیاز",
-      "image": "../../assets/image/koofteberenji.png"
+      "image": ""
     },
     {
       "id": 3,

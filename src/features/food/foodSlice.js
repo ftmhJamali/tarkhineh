@@ -5,7 +5,7 @@ const initialState = {
   branches: [
     {
       id: 1,
-      image: "../assets/branch/ekbatan.png",
+      image: "https://i.postimg.cc/wMTF08gn/ekbatan.png",
       name: " اکــــباتـــان ",
       address: "شهرک اکباتان، فاز ۳، مجتمع تجاری کوروش، طبقه سوم",
       comments: [
@@ -41,7 +41,7 @@ const initialState = {
     },
     {
       id: 2,
-      image: "../assets/branch/chaloos.png",
+      image: "https://i.postimg.cc/QNbpSyBJ/chaloos.png",
       name: "چــالــوس",
       address: "چالوس، خیابان ۱۷ شهریور، بعد کوچه کوروش، جنب داروخانه",
       comments: [
@@ -77,7 +77,7 @@ const initialState = {
     },
     {
       id: 3,
-      image: "../assets/branch/aghdasieh.png",
+      image: "https://i.postimg.cc/sDYbnyY0/aghdasieh.png",
       name: "اقدســیه",
       address: "خیابان اقدسیه ، نرسیده به میدان خیام، پلاک ۸",
       comments: [
@@ -113,7 +113,7 @@ const initialState = {
     },
     {
       id: 4,
-      image: "../assets/branch/vanak.png",
+      image: "https://i.postimg.cc/sgVfmTh7/vanak.png",
       name: "ونــــک",
       address: "میدان ونک، خیابان فردوسی، نبش کوچه نیلوفر، پلاک ۲۶",
       comments: [
@@ -156,21 +156,26 @@ const initialState = {
       id: "main",
       num: 0,
       name: "غذای اصلی",
-      image: "../assets/menu/image-4.png",
+      image: "https://i.postimg.cc/HLkGcK7v/image-4.png",
     },
     {
       id: "appetizer",
       num: 1,
       name: "پیش غذا",
-      image: "../assets/menu/image-3.png",
+      image: "https://i.postimg.cc/50yPbWF1/image-3.png",
     },
     {
       id: "dessert",
       num: 2,
       name: "دســـر",
-      image: "../assets/menu/image-2.png",
+      image: "https://i.postimg.cc/gJ27j6QC/image-2.png",
     },
-    { id: "drink", num: 3, name: "نوشیدنی", image: "../assets/menu/image.png" },
+    {
+      id: "drink",
+      num: 3,
+      name: "نوشیدنی",
+      image: "https://i.postimg.cc/MHTJCLzj/image.png",
+    },
   ],
   cart: [],
   searchBar: [],

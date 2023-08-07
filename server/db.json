@@ -9,7 +9,7 @@
       "discount": 8,
       "favarite": 5,
       "madeWith": "کلم برگ،لپه پخته،پیاز",
-      "image": "../../assets/image/dolmebargekalam.png"
+      "image": "https://i.postimg.cc/fySg7f8d/dolmebargekalam.png"
     },
     {
       "id": 2,
@@ -20,7 +20,7 @@
       "discount": 35,
       "favarite": 5,
       "madeWith": " برنج ،سبزی،پیاز",
-      "image": "../../assets/image/koofteberenji.png"
+      "image": "https://i.postimg.cc/QNRWfJ6M/koofteberenji.png"
     },
     {
       "id": 3,
@@ -31,7 +31,7 @@
       "discount": 0,
       "favarite": 5,
       "madeWith": "بادمجان،کشک،مغز،نعناع",
-      "image": "../../assets/image/kashkobademjan.png"
+      "image": "https://i.postimg.cc/KYRGXdjh/kashkobademjan.png"
     },
     {
       "id": 4,
@@ -42,7 +42,7 @@
       "discount": 10,
       "favarite": 5,
       "madeWith": "بادمجان،گوجه فرنگی،تخم مرغ",
-      "image": "../../assets/image/mirzaghasemi.png"
+      "image": "https://i.postimg.cc/G3JxTN3C/mirzaghasemi.png"
     },
     {
       "id": 5,
@@ -53,7 +53,7 @@
       "discount": 30,
       "favarite": 4,
       "madeWith": "باچ باقلا،شوید،کره،سیر",
-      "image": "../../assets/image/baghalaghatogh.png"
+      "image": "https://i.postimg.cc/26dhvbDw/baghalaghatogh.png"
     },
     {
       "id": 6,
@@ -64,7 +64,7 @@
       "discount": 0,
       "favarite": 3,
       "madeWith": "نخود،پیاز،تخم گشنیز،سیر",
-      "image": "../../assets/image/falafel.png"
+      "image": "https://i.postimg.cc/SRN2MgVS/falafel.png"
     },
     {
       "id": 7,
@@ -75,7 +75,7 @@
       "discount": 5,
       "favarite": 4,
       "madeWith": "کشک،گردو،پیاز،نعناع",
-      "image": "../../assets/image/kalejoosh.png"
+      "image": "https://i.postimg.cc/c4v6Ggbb/kalejoosh.png"
     },
     {
       "id": 8,
@@ -86,7 +86,7 @@
       "discount": 22,
       "favarite": 5,
       "madeWith": "بادمجان قلمی ، ماست چکیده",
-      "image": "../../assets/image/boranibademjan.png"
+      "image": "https://i.postimg.cc/GptbGZnS/boranibademjan.png"
     },
     {
       "id": 9,
@@ -97,7 +97,7 @@
       "discount": 18,
       "favarite": 4,
       "madeWith": "بادمجان،پیاز،گوجه فرنگی،سیر",
-      "image": "../../assets/image/bademjaneshekampor.png"
+      "image": "https://i.postimg.cc/VsD4HTxF/bademjaneshekampor.png"
     },
     {
       "id": 10,
@@ -108,7 +108,7 @@
       "discount": 18,
       "favarite": 2,
       "madeWith": "پیاز،برنج،سبزی",
-      "image": "../../assets/image/dolmebargemo.png"
+      "image": "https://i.postimg.cc/FzBystm5/dolmebargemo.png"
     },
     {
       "id": 11,
@@ -119,7 +119,7 @@
       "discount": 10,
       "favarite": 5,
       "madeWith": "تخم مرغ،گردو،آرد،سیر،پیاز",
-      "image": "../../assets/image/kookoosabzi.png"
+      "image": "https://i.postimg.cc/c1bw3SqP/kookoosabzi.png"
     },
     {
       "id": 10,
@@ -130,7 +130,7 @@
       "discount": 20,
       "favarite": 1,
       "madeWith": "عدس،سیب زمینی، پیاز",
-      "image": "../../assets/image/kookoosibzaminiadas.png"
+      "image": "https://i.postimg.cc/k4DDM25G/kookoosibzaminiadas.png"
     },
     {
       "id": 11,
@@ -141,7 +141,7 @@
       "discount": 20,
       "favarite": 5,
       "madeWith": "پاستا،قارچ،گوجه،کدو",
-      "image": "../../assets/image/pastasabzijat.png"
+      "image": "https://i.postimg.cc/0jXgCCRd/pakorasabzijat.png"
     },
     {
       "id": 12,
@@ -152,7 +152,7 @@
       "discount": 12,
       "favarite": 4,
       "madeWith": "اسپاگتی،گوشت چرخکرده،هویج",
-      "image": "../../assets/image/pastablonz.png"
+      "image": "https://i.postimg.cc/qByjXw0k/pastablonz.png"
     },
     {
       "id": 13,
@@ -163,7 +163,7 @@
       "discount": 45,
       "favarite": 4,
       "madeWith": "بادمجان،گوجه،کدوسبز",
-      "image": "../../assets/image/ratatoei.png"
+      "image": "https://i.postimg.cc/QxwXd27j/ratatoei.png"
     },
     {
       "id": 14,
@@ -174,7 +174,7 @@
       "discount": 0,
       "favarite": 5,
       "madeWith": "لازانیا،قارچ،ریحان،جعفری",
-      "image": "../../assets/image/lasania.png"
+      "image": "https://i.postimg.cc/02HM6g3r/lasania.png"
     },
     {
       "id": 15,
@@ -185,7 +185,7 @@
       "discount": 15,
       "favarite": 4,
       "madeWith": "جلبک دریایی،نوری،برنج",
-      "image": "../../assets/image/soshi.png"
+      "image": "https://i.postimg.cc/LXTh2GL9/soshi.png"
     },
     {
       "id": 16,
@@ -196,7 +196,7 @@
       "discount": 8,
       "favarite": 4,
       "madeWith": "گرام ماسالا،پودرکاری،سیر",
-      "image": "../../assets/image/pakorasabzijat.png"
+      "image": "https://i.postimg.cc/0jXgCCRd/pakorasabzijat.png"
     },
     {
       "id": 17,
@@ -207,7 +207,7 @@
       "discount": 17,
       "favarite": 5,
       "madeWith": "اسفناج،قارچ،پنیرموزارلا",
-      "image": "../../assets/image/kalzooneesfenaj.png"
+      "image": "https://i.postimg.cc/9M6V3pNm/kalzooneesfenaj.png"
     },
     {
       "id": 18,
@@ -218,7 +218,7 @@
       "discount": 15,
       "favarite": 4,
       "madeWith": "پنیر،اسفناج،گوجه،پیاز،سیر",
-      "image": "../../assets/image/palakpanir.png"
+      "image": "https://i.postimg.cc/QtygjBpx/palakpanir.png"
     },
     {
       "id": 19,
@@ -229,7 +229,7 @@
       "discount": 12,
       "favarite": 5,
       "madeWith": "اسفناج،سبزی،روکولا،",
-      "image": "../../assets/image/pizzarokola.png"
+      "image": "https://i.postimg.cc/Fs8L15dG/pizzarokola.png"
     },
     {
       "id": 20,
@@ -240,7 +240,7 @@
       "discount": 0,
       "favarite": 4,
       "madeWith": "بادمجان،روغن زیتون،آرد",
-      "image": "../../assets/image/pizaabademjanzeytoon.png"
+      "image": "https://i.postimg.cc/T1yPX19x/pizaabademjanzeytoon.png"
     },
     {
       "id": 21,
@@ -251,7 +251,7 @@
       "discount": 21,
       "favarite": 4,
       "madeWith": "نخودفرنگی،ذرت،زیتون",
-      "image": "../../assets/image/pizzasabzijatkhame.png"
+      "image": "https://i.postimg.cc/m2CHcpYs/pizzasabzijatkhame.png"
     },
     {
       "id": 22,
@@ -262,7 +262,7 @@
       "discount": 25,
       "favarite": 3,
       "madeWith": "قارچ،فلفل دلمه،رب گوجه",
-      "image": "../../assets/image/pizzagharch.png"
+      "image": "https://i.postimg.cc/sgK1Sk1t/pizzagharch.png"
     },
     {
       "id": 23,
@@ -273,7 +273,7 @@
       "discount": 0,
       "favarite": 4,
       "madeWith": "تافو،فلفل قرمز،پودر سیر",
-      "image": "../../assets/image/pizaapeperoni.png"
+      "image": "https://i.postimg.cc/15rzhk0f/pizaapeperoni.png"
     },
     {
       "id": 24,
@@ -284,7 +284,7 @@
       "discount": 10,
       "favarite": 5,
       "madeWith": "اسفناج تازه،پیاز،سیر",
-      "image": "../../assets/image/pizzaesfenaj.png"
+      "image": "https://i.postimg.cc/xTn0RsrY/pizzaesfenaj.png"
     },
     {
       "id": 25,
@@ -295,7 +295,7 @@
       "discount": 13,
       "favarite": 2,
       "madeWith": "گوجه،ریحان،سیز،پنیر",
-      "image": "../../assets/image/pizzamargarita.png"
+      "image": "https://i.postimg.cc/Xq86mbMW/pizzamargarita.png"
     },
     {
       "id": 26,
@@ -306,7 +306,7 @@
       "discount": 16,
       "favarite": 3,
       "madeWith": "نان پیتزا،پنیرپیتزا،سس باربیکیو",
-      "image": "../../assets/image/pizzapanir.png"
+      "image": "https://i.postimg.cc/DZ3VzZnF/pizzapanir.png"
     },
     {
       "id": 27,
@@ -317,7 +317,7 @@
       "discount": 18,
       "favarite": 5,
       "madeWith": "سیب زمینی،لوبیاقرمز،بلغور",
-      "image": "../../assets/image/sandwichkotletmakhsoos.png"
+      "image": "https://i.postimg.cc/Fs5xnLGh/sandwichkotletmakhsoos.png"
     },
     {
       "id": 28,
@@ -328,7 +328,7 @@
       "discount": 35,
       "favarite": 4,
       "madeWith": "سوسیس گیاهی،پیاز،سیب زمینی",
-      "image": "../../assets/image/sandwichsosiskoktel.png"
+      "image": "https://i.postimg.cc/8c8L32RZ/sandwichsosiskoktel.png"
     },
     {
       "id": 29,
@@ -339,7 +339,7 @@
       "discount": 0,
       "favarite": 5,
       "madeWith": "کدوسبز،پیاز،هویج،سیب زمینی",
-      "image": "../../assets/image/sandwichkotletkadoosabz.png"
+      "image": "https://i.postimg.cc/1zf6zmMW/sandwichkotletkadoosabz.png"
     },
     {
       "id": 30,
@@ -350,7 +350,7 @@
       "discount": 15,
       "favarite": 3,
       "madeWith": "قارچ،اسفناج،پیاز،پنیر",
-      "image": "../../assets/image/paniniesfenaj.png"
+      "image": "https://i.postimg.cc/c1MK0t0x/paniniesfenaj.png"
     }
   ]
 }

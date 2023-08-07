@@ -166,18 +166,20 @@ const MainPage = () => {
               state={{ b }}
               data-aos="fade-up"
               data-aos-duration="1000"
-              className="hover:translate-y-1 parent border items-center border-gray w-[378px] h-[110px] md:w-[228px] md:h-[410px] hover:border-natural hover:shadow-md rounded-md gap-x-3 flex flex-row md:flex-col gap-y-3 shadow-sm"
+              className="hover:translate-y-1 parent border items-center border-gray w-[378px] h-[110px] md:w-[228px] md:h-[430px] hover:border-natural hover:shadow-md rounded-md gap-x-3 flex flex-row md:flex-col gap-y-3 shadow-sm"
             >
               <img
-                className="h-full w-[240px] md:h-[229px]  md:w-full"
+                className="h-full  md:h-[229px]  md:w-full"
                 alt=""
                 src={b.image}
               />
               <div className="flex items-center gap-y-3 justify-center flex-col">
                 <h3 className="text-natural md:text-xl ">شعبه {b.name}</h3>
-                <p className="text-sm me-2 md:px-2 md:leading-6  text-natural">
-                  {b.address}
-                </p>
+                <div className="flex justify-center md:ps-4 md:w-[220px] items-center">
+                  <p className="text-sm w-full  me-2 md:px-2 md:leading-6  text-natural">
+                    {b.address}
+                  </p>
+                </div>
                 <Link
                   to={`/branch/${b.id}`}
                   state={{ b }}
