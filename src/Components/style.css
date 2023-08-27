@@ -39,3 +39,6 @@
 input[type="radio"] {
   accent-color: #417f56;
 }
+.tr-btn{
+  transition: all 0.4s;
+}

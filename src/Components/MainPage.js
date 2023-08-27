@@ -166,7 +166,7 @@ const MainPage = () => {
               state={{ b }}
               data-aos="fade-up"
               data-aos-duration="1000"
-              className="hover:translate-y-1 parent border items-center border-gray w-[378px] h-[110px] md:w-[228px] md:h-[430px] hover:border-natural hover:shadow-md rounded-md gap-x-3 flex flex-row md:flex-col gap-y-3 shadow-sm"
+              className="group hover:translate-y-1 parent border items-center border-gray w-[378px] h-[110px] md:w-[228px] md:h-[400px] hover:border-natural hover:shadow-md rounded-md gap-x-3 flex flex-row md:flex-col gap-y-3 shadow-sm"
             >
               <img
                 className="h-full  md:h-[229px]  md:w-full"
@@ -183,7 +183,7 @@ const MainPage = () => {
                 <Link
                   to={`/branch/${b.id}`}
                   state={{ b }}
-                  className="hidden md:flex mt-4 border border-natural rounded-md p-1 items-center"
+                  className="hidden group-hover:md:flex sm:hidden tr-btn  mt-2 border border-natural rounded-md p-1 items-center"
                 >
                   <p>صفحه شعبه</p>
                   <img className="h-4" alt="" src={arrowLeft} />
